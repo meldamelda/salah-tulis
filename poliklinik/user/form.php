@@ -45,7 +45,7 @@
     </div>
     <div class="form-group mb-2">
         <label for="password">Password</label>
-        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password" >
     </div>
     <input type="submit" class="btn btn-success mt-2" name="submit" value="<?= strtoupper($id?"update":"simpan");?>">
 </form>

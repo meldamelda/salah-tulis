@@ -15,10 +15,11 @@ $p = "$page/$act";
     <link rel="stylesheet" href="frontend/style/style.css">
 </head>
 <body>
+    <script src="frontend/library/jquery/jquery-3.6.0.min.js"></script>
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">RS ABC</a>
+            <a class="navbar-brand text-white" href="<?= BASEURL;?>">Poliklinik ABC</a>
         </div>
     </nav>
 
@@ -43,7 +44,6 @@ $p = "$page/$act";
         <p class="text-secondary text-center">Melda Yanti</p>
     </div>
     
-    <script src="frontend/library/jquery/jquery-3.6.0.min.js"></script>
     <script src="frontend/library/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
